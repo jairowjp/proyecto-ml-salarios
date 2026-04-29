@@ -51,7 +51,7 @@ El proyecto sigue un pipeline estructurado de ciencia de datos y aprendizaje aut
 
 Se realizó una revisión inicial del dominio del problema, de las variables disponibles y de la distribución de las clases, además de visualizaciones orientadas a comprender relaciones entre atributos y detectar valores atípicos.
 
-### Visualizaciones del EDA
+### Visualizaciones del EDA — Boxplots por variable numérica
 
 El análisis exploratorio incluyó la descripción de variables y clases, así como visualizaciones para comprender relaciones entre atributos y detectar valores atípicos.
 
@@ -61,6 +61,14 @@ Entre las visualizaciones desarrolladas se incluyen:
 - Boxplots de variables salariales.
 - Gráficos de distribución de la variable objetivo.
 - Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
+
+| Variable | Distribución |
+|---|---|
+| TotalPay | ![Boxplot TotalPay](reports/figures/eda_boxplot_TotalPay.png) |
+| TotalPayBenefits | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
+| Year | ![Boxplot Year](reports/figures/eda_boxplot_Year.png) |
+| Id | ![Boxplot Id](reports/figures/eda_boxplot_Id.png) |
+
 
 ### 2. Preprocesamiento
 
