@@ -58,14 +58,9 @@ El análisis exploratorio incluyó la descripción de variables y clases, así c
 Entre las visualizaciones desarrolladas se incluyen:
 
 - Matriz de correlación entre variables numéricas.
-
-La matriz de correlación permite identificar qué variables tienen una relación 
-lineal significativa entre sí. En este dataset, variables como `TotalPay` y 
-`TotalPayBenefits` presentan una correlación muy alta (esperada, dado que una 
-incluye a la otra). Este análisis orienta la selección de features y ayuda a 
-detectar multicolinealidad antes del modelado.
-
-![Matriz de correlación](reports/figures/eda_matriz_correlacion.png)
+| Descripción | Gráfico |
+|---|---|
+| La matriz de correlación muestra la relación lineal entre las variables numéricas del dataset. `TotalPay` y `TotalPayBenefits` presentan correlación muy alta dado que una incluye a la otra. | ![Matriz de correlación](reports/figures/eda_matriz_correlacion.png) |
 
 - Boxplots de variables salariales.
 
