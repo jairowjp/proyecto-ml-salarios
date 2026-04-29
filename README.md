@@ -163,6 +163,15 @@ Por tanto, desde una perspectiva práctica, **Random Forest** se selecciona como
 
 La comparación de modelos de regresión sobre el conjunto de prueba fue la siguiente:
 
+| Modelo                                  | MAE ↓ (Error Absoluto Medio) | RMSE ↓ (Raíz del Error Cuadrático) | R² ↑ (Coeficiente de Determinación) | Evaluación            |
+| --------------------------------------- | ---------------------------: | ---------------------------------: | ----------------------------------: | --------------------- |
+| Regresión Lineal                        |                    21,797.61 |                          30,708.89 |                               0.618 | Base (bajo desempeño) |
+| Ridge (α = 10)                          |                    21,797.14 |                          30,708.87 |                               0.618 | Similar a Lineal      |
+| Decision Tree Regressor (max_depth = 8) |                    11,062.64 |                          22,686.61 |                               0.791 | Mejora significativa  |
+| **Random Forest Regressor**             |                 **8,896.11** |                      **21,747.04** |                           **0.808** | 🏆 Mejor modelo       |
+
+
+
                        | Modelo |    MAE      |    RMSE     | \(R^2\) |
 |---|---:|---:|---:|
 | Regresión Lineal              | 21797.6081  | 30708.8907  | 0.6177  |
