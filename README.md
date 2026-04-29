@@ -58,9 +58,16 @@ El análisis exploratorio incluyó la descripción de variables y clases, así c
 Entre las visualizaciones desarrolladas se incluyen:
 
 - Matriz de correlación entre variables numéricas.
+
+La matriz de correlación permite identificar qué variables tienen una relación 
+lineal significativa entre sí. En este dataset, variables como `TotalPay` y 
+`TotalPayBenefits` presentan una correlación muy alta (esperada, dado que una 
+incluye a la otra). Este análisis orienta la selección de features y ayuda a 
+detectar multicolinealidad antes del modelado.
+
+![Matriz de correlación](reports/figures/eda_matriz_correlacion.png)
+
 - Boxplots de variables salariales.
-- Gráficos de distribución de la variable objetivo.
-- Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
 
 | Variable | Distribución |
 |---|---|
@@ -68,6 +75,12 @@ Entre las visualizaciones desarrolladas se incluyen:
 | TotalPayBenefits | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
 | Year | ![Boxplot Year](reports/figures/eda_boxplot_Year.png) |
 | Id | ![Boxplot Id](reports/figures/eda_boxplot_Id.png) |
+
+- Gráficos de distribución de la variable objetivo.
+
+
+- Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
+
 
 
 ### 2. Preprocesamiento
