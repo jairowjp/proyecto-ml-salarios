@@ -51,6 +51,17 @@ El proyecto sigue un pipeline estructurado de ciencia de datos y aprendizaje aut
 
 Se realizó una revisión inicial del dominio del problema, de las variables disponibles y de la distribución de las clases, además de visualizaciones orientadas a comprender relaciones entre atributos y detectar valores atípicos.
 
+### Visualizaciones del EDA
+
+El análisis exploratorio incluyó la descripción de variables y clases, así como visualizaciones para comprender relaciones entre atributos y detectar valores atípicos.
+
+Entre las visualizaciones desarrolladas se incluyen:
+
+- Matriz de correlación entre variables numéricas.
+- Boxplots de variables salariales.
+- Gráficos de distribución de la variable objetivo.
+- Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
+
 ### 2. Preprocesamiento
 
 El preprocesamiento incluyó varias transformaciones importantes para mejorar la calidad del dataset y preparar los modelos.
@@ -177,6 +188,19 @@ La comparación de modelos de regresión sobre el conjunto de prueba fue la sigu
 El mejor modelo de regresión fue **Random Forest Regressor**, con un **RMSE de 21,747.04** y un \(R^2\) de **0.8083**, lo que indica una mayor capacidad explicativa frente a los modelos lineales y frente al árbol individual.
 
 Esto sugiere que las relaciones entre las variables salariales y el salario total presentan componentes no lineales que son capturados mejor por modelos de ensamble.
+
+### Visualización comparativa de resultados
+
+La comparación experimental de los modelos se complementó con visualizaciones en formato gráfico, tal como solicita la actividad.
+
+Entre los gráficos utilizados se incluyen:
+
+- Matrices de confusión para los modelos de clasificación.
+- Curvas ROC para comparar capacidad de discriminación.
+- Barplots comparativos de métricas de clasificación.
+- Gráficos comparativos de desempeño en regresión.
+
+De esta forma, además de la tabla resumen, el repositorio incorpora resultados visuales que facilitan la interpretación del rendimiento de cada modelo.
 
 ## Detección de overfitting
 
