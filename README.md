@@ -152,14 +152,6 @@ A continuación se presenta la tabla resumen de modelos de clasificación sobre 
 | **SVM (RBF Kernel)**          |        N/D |         N/D |        N/D |        N/D | **0.9272** | 🔥 Mejor capacidad de discriminación |
 
 
-
-                    | Modelo | Accuracy | Precision | Recall  | F1-Score | AUC-ROC |
-|---|---:|---:|---:|---:|---:|
-| Logistic Regression        | 0.7779   | 0.8079    | 0.7047  | 0.7528   | 0.8430  |
-| Decision Tree (maxdepth=6) | 0.7823   | 0.7753    | 0.7692  | 0.7722   | 0.8663  |
-| Random Forest              | 0.8286   | 0.8435    | 0.7891  | 0.8154   | 0.9101  |
-| SVM RBF | Mejor AUC-ROC global: 0.9272  | Ver notebook  | Ver notebook  | Ver notebook  | 0.9272  |
-
 ### Interpretación de clasificación
 
 Los resultados muestran que **Random Forest** fue el mejor modelo en términos de **F1-Score**, alcanzando **0.8154**, lo que lo convierte en la mejor opción cuando se busca equilibrio entre precisión y recall.
@@ -179,14 +171,6 @@ La comparación de modelos de regresión sobre el conjunto de prueba fue la sigu
 | Decision Tree Regressor (max_depth = 8) |                    11,062.64 |                          22,686.61 |                               0.791 | Mejora significativa  |
 | **Random Forest Regressor**             |                 **8,896.11** |                      **21,747.04** |                           **0.808** | 🏆 Mejor modelo       |
 
-
-
-                       | Modelo |    MAE      |    RMSE     | \(R^2\) |
-|---|---:|---:|---:|
-| Regresión Lineal              | 21797.6081  | 30708.8907  | 0.6177  |
-| Ridge alpha10                 | 21797.1362  | 30708.8663  | 0.6177  |
-| Decision Tree Regressor d8    | 11062.6442  | 22686.6121  | 0.7914  |
-| Random Forest Regressor       | 8896.1063   | 21747.0436  | 0.8083  |
 
 ### Interpretación de regresión
 
