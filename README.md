@@ -144,6 +144,15 @@ Para el problema de regresión se utilizaron:
 
 A continuación se presenta la tabla resumen de modelos de clasificación sobre el conjunto de prueba, cumpliendo con lo solicitado en la actividad.
 
+| Modelo                        | Accuracy ↑ | Precision ↑ |   Recall ↑ | F1-Score ↑ |  AUC-ROC ↑ | Evaluación                           |
+| ----------------------------- | ---------: | ----------: | ---------: | ---------: | ---------: | ------------------------------------ |
+| Logistic Regression           |     0.7779 |      0.8079 |     0.7047 |     0.7528 |     0.8430 | Buen baseline                        |
+| Decision Tree (max_depth = 6) |     0.7823 |      0.7753 |     0.7692 |     0.7722 |     0.8663 | Balanceado                           |
+| Random Forest                 | **0.8286** |  **0.8435** | **0.7891** | **0.8154** |     0.9101 | 🏆 Mejor rendimiento general         |
+| **SVM (RBF Kernel)**          |        N/D |         N/D |        N/D |        N/D | **0.9272** | 🔥 Mejor capacidad de discriminación |
+
+
+
                     | Modelo | Accuracy | Precision | Recall  | F1-Score | AUC-ROC |
 |---|---:|---:|---:|---:|---:|
 | Logistic Regression        | 0.7779   | 0.8079    | 0.7047  | 0.7528   | 0.8430  |
