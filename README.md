@@ -191,6 +191,24 @@ Este comportamiento confirma la importancia de regular la complejidad del modelo
 - Los modelos de ensamble superaron a los modelos lineales y a los árboles individuales, lo que sugiere relaciones complejas en el comportamiento salarial del dataset.
 - La comparación train/test en árboles mostró claramente el riesgo de overfitting cuando no se controla la profundidad del modelo.
 
+<div style="border:2px solid #c41e3a; border-radius:8px; padding:12px 16px; background:#1e1e1e10;">
+
+  <p style="margin:0 0 8px 0;">
+    <strong style="color:#c41e3a;">
+      ✅ El mejor modelo de clasificación fue Random Forest con F1 ≈ 0.815 y AUC-ROC ≈ 0.91,
+      y el mejor modelo de regresión fue Random Forest Regressor con R² ≈ 0.81.
+    </strong>
+  </p>
+
+  <p style="margin:0;">
+    <strong style="color:#007acc;">
+      🔍 El pipeline de preprocesamiento fue determinante para asegurar calidad de datos
+      y evitar fugas de información entre entrenamiento y prueba.
+    </strong>
+  </p>
+
+</div>
+
 ## Conclusiones técnicas
 
 Este proyecto demuestra que un enfoque de pipeline completo —desde limpieza de datos hasta comparación experimental— permite construir soluciones supervisadas sólidas sobre datos reales, tal como solicita la actividad académica.
