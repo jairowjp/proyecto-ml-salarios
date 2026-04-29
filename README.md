@@ -74,6 +74,10 @@ Se identifican múltiples valores atípicos superiores a $210,000, llegando hast
 $567,000, lo que indica la presencia de empleados con compensaciones 
 excepcionalmente altas que justifican el tratamiento de outliers aplicado en 
 el preprocesamiento. | ![Boxplot TotalPay](reports/figures/eda_boxplot_TotalPay.png) |
+
+
+| Variable | Distribución |
+|---|---|
 | TotalPayBenefits | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
 | Year | ![Boxplot Year](reports/figures/eda_boxplot_Year.png) |
 | Id | ![Boxplot Id](reports/figures/eda_boxplot_Id.png) |
