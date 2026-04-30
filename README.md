@@ -67,14 +67,21 @@ Entre las visualizaciones desarrolladas se incluyen:
 
 | Variable | Distribución |
 |---|---|
-| TotalPay El boxplot de `TotalPay` revela una distribución fuertemente sesgada hacia la derecha. La mayoría de los empleados concentra su salario total entre $36,000 y $105,000 (rango intercuartílico), con una mediana de aproximadamente $71,000. Se identifican múltiples valores atípicos superiores a $210,000, llegando hasta $567,000, lo que indica la presencia de empleados con compensaciones excepcionalmente altas que justifican el tratamiento de outliers aplicado en el preprocesamiento. | ![Boxplot TotalPay](reports/figures/eda_boxplot_TotalPay.png) |
+| El boxplot de `TotalPay` revela una distribución fuertemente sesgada hacia la derecha. La mayoría de los empleados concentra su salario total entre $36,000 y $105,000 (rango intercuartílico), con una mediana de aproximadamente $71,000. Se identifican múltiples valores atípicos superiores a $210,000, llegando hasta $567,000, lo que indica la presencia de empleados con compensaciones excepcionalmente altas que justifican el tratamiento de outliers aplicado en el preprocesamiento. | ![Boxplot TotalPay](reports/figures/eda_boxplot_TotalPay.png) |
 
 
 | Variable | Distribución |
 |---|---|
-| TotalPayBenefits | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
-| Year | ![Boxplot Year](reports/figures/eda_boxplot_Year.png) |
-| Id | ![Boxplot Id](reports/figures/eda_boxplot_Id.png) |
+| El boxplot de `TotalPayBenefits` muestra la distribución del salario total incluyendo beneficios. La mediana se ubica cerca de $92,000, con el 50% central de los empleados entre $44,000 y $133,000. Se observan múltiples valores atípicos que superan los $270,000, llegando hasta $568,000. Comparado con `TotalPay`, esta variable presenta valores consistentemente mayores, confirmando que los beneficios representan una parte relevante de la compensación total y refuerza la necesidad del tratamiento de 
+outliers aplicado en el preprocesamiento. | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
+
+| Variable | Distribución |
+|---|---|
+| Este gráfico es completamente diferente a los dos anteriores. Year no es una variable salarial sino una variable de tiempo discreta que solo toma 4 valores posibles: 2011, 2012, 2013 y 2014. El boxplot de `Year` confirma que el dataset cubre el período 2011–2014. La mediana se ubica en 2013, lo que indica una leve concentración de registros en los años más recientes. Al ser una variable temporal discreta con solo 4 valores posibles, no presenta outliers y su distribución es uniforme. Esta variable fue incluida como feature en el modelado para capturar posibles tendencias salariales a lo largo del tiempo. | ![Boxplot Year](reports/figures/eda_boxplot_Year.png) |
+
+| Variable | Distribución |
+|---|---|
+| La distribución es perfectamente simétrica y uniforme porque Id es simplemente una numeración consecutiva. La mediana coincide exactamente con la mitad del total de registros. No aporta información predictiva y por eso fue excluida como feature en el modelado. El boxplot de `Id` muestra una distribución perfectamente uniforme y simétrica, lo cual es esperado ya que se trata de un identificador numérico secuencial del 1 al 148,654. La mediana (~74,000) coincide con el punto central del dataset. Al no contener información predictiva sobre salarios ni comportamiento laboral, esta variable fue excluida del conjunto de features utilizado en el modelado. | ![Boxplot Id](reports/figures/eda_boxplot_Id.png) |
 
 - Gráficos de distribución de la variable objetivo.
 
