@@ -61,7 +61,7 @@ Entre las visualizaciones desarrolladas se incluyen:
 
 | Descripción | Gráfico |
 |---|---|
-| La matriz de correlación muestra la relación lineal entre las variables numéricas del dataset. `TotalPay` y `TotalPayBenefits` presentan correlación muy alta dado que una incluye a la otra. | <img src="reports/figures/eda_matriz_correlacion.png" width="900"> |
+| La matriz de correlación muestra la relación lineal entre las variables numéricas del dataset. `TotalPay` y `TotalPayBenefits` presentan correlación muy alta dado que una incluye a la otra. | <img src="reports/figures/eda_matriz_correlacion.png" width="1300"> |
 
 - Boxplots de variables salariales.
 
