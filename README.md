@@ -70,6 +70,12 @@ Entre las visualizaciones desarrolladas se incluyen:
 | El boxplot de `TotalPay` revela una distribución fuertemente sesgada hacia la derecha. La mayoría de los empleados concentra su salario total entre $36,000 y $105,000 (rango intercuartílico), con una mediana de aproximadamente $71,000. Se identifican múltiples valores atípicos superiores a $210,000, llegando hasta $567,000, lo que indica la presencia de empleados con compensaciones excepcionalmente altas que justifican el tratamiento de outliers aplicado en el preprocesamiento. | <img src="reports/figures/eda_boxplot_TotalPay.png" width="3000"> |
 
 
+### Boxplot de TotalPay
+
+El boxplot de `TotalPay` revela una distribución fuertemente sesgada hacia la derecha. La mayoría de los empleados concentra su salario total entre $36,000 y $105,000, con una mediana de aproximadamente $71,000. Se identifican múltiples valores atípicos superiores a $210,000, llegando hasta $567,000.
+
+<img src="reports/figures/eda_boxplot_TotalPay.png" width="800">
+
 | Variable | Distribución |
 |---|---|
 | El boxplot de `TotalPayBenefits` muestra la distribución del salario total incluyendo beneficios. La mediana se ubica cerca de $92,000, con el 50% central de los empleados entre $44,000 y $133,000. Se observan múltiples valores atípicos que superan los $270,000, llegando hasta $568,000. Comparado con `TotalPay`, esta variable presenta valores consistentemente mayores, confirmando que los beneficios representan una parte relevante de la compensación total y refuerza la necesidad del tratamiento de outliers aplicado en el preprocesamiento. | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
