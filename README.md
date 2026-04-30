@@ -72,8 +72,7 @@ Entre las visualizaciones desarrolladas se incluyen:
 
 | Variable | Distribución |
 |---|---|
-| El boxplot de `TotalPayBenefits` muestra la distribución del salario total incluyendo beneficios. La mediana se ubica cerca de $92,000, con el 50% central de los empleados entre $44,000 y $133,000. Se observan múltiples valores atípicos que superan los $270,000, llegando hasta $568,000. Comparado con `TotalPay`, esta variable presenta valores consistentemente mayores, confirmando que los beneficios representan una parte relevante de la compensación total y refuerza la necesidad del tratamiento de 
-outliers aplicado en el preprocesamiento. | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
+| El boxplot de `TotalPayBenefits` muestra la distribución del salario total incluyendo beneficios. La mediana se ubica cerca de $92,000, con el 50% central de los empleados entre $44,000 y $133,000. Se observan múltiples valores atípicos que superan los $270,000, llegando hasta $568,000. Comparado con `TotalPay`, esta variable presenta valores consistentemente mayores, confirmando que los beneficios representan una parte relevante de la compensación total y refuerza la necesidad del tratamiento de outliers aplicado en el preprocesamiento. | ![Boxplot TotalPayBenefits](reports/figures/eda_boxplot_TotalPayBenefits.png) |
 
 | Variable | Distribución |
 |---|---|
