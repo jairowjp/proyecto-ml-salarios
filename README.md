@@ -74,7 +74,7 @@ Entre las visualizaciones desarrolladas se incluyen:
 
 El boxplot de `TotalPay` revela una distribución fuertemente sesgada hacia la derecha. La mayoría de los empleados concentra su salario total entre $36,000 y $105,000, con una mediana de aproximadamente $71,000. Se identifican múltiples valores atípicos superiores a $210,000, llegando hasta $567,000.
 
-<img src="reports/figures/eda_boxplot_TotalPay.png" width="800">
+<img src="reports/figures/eda_boxplot_TotalPay.png" width="500">
 
 | Variable | Distribución |
 |---|---|
