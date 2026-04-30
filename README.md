@@ -79,13 +79,19 @@ Entre las visualizaciones desarrolladas se incluyen:
   </tr>
 </table>
 
-| Variable | Distribución |
-|---|---|
-| Este gráfico es completamente diferente a los dos anteriores. Year no es una variable salarial sino una variable de tiempo discreta que solo toma 4 valores posibles: 2011, 2012, 2013 y 2014. El boxplot de `Year` confirma que el dataset cubre el período 2011–2014. La mediana se ubica en 2013, lo que indica una leve concentración de registros en los años más recientes. Al ser una variable temporal discreta con solo 4 valores posibles, no presenta outliers y su distribución es uniforme. Esta variable fue incluida como feature en el modelado para capturar posibles tendencias salariales a lo largo del tiempo. | ![Boxplot Year](reports/figures/eda_boxplot_Year.png) |
+<table>
+  <tr>
+    <td width="300">Este gráfico es completamente diferente a los dos anteriores. <code>Year</code> no es una variable salarial sino una variable de tiempo discreta que solo toma 4 valores posibles: 2011, 2012, 2013 y 2014. El boxplot confirma que el dataset cubre el período 2011–2014. La mediana se ubica en 2013, lo que indica una leve concentración de registros en los años más recientes. Al ser una variable temporal discreta con solo 4 valores posibles, no presenta outliers y su distribución es uniforme. Esta variable fue incluida como feature en el modelado para capturar posibles tendencias salariales a lo largo del tiempo.</td>
+    <td><img src="reports/figures/eda_boxplot_Year.png" width="600"></td>
+  </tr>
+</table>
 
-| Variable | Distribución |
-|---|---|
-| La distribución es perfectamente simétrica y uniforme porque Id es simplemente una numeración consecutiva. La mediana coincide exactamente con la mitad del total de registros. No aporta información predictiva y por eso fue excluida como feature en el modelado. El boxplot de `Id` muestra una distribución perfectamente uniforme y simétrica, lo cual es esperado ya que se trata de un identificador numérico secuencial del 1 al 148,654. La mediana (~74,000) coincide con el punto central del dataset. Al no contener información predictiva sobre salarios ni comportamiento laboral, esta variable fue excluida del conjunto de features utilizado en el modelado. | ![Boxplot Id](reports/figures/eda_boxplot_Id.png) |
+<table>
+  <tr>
+    <td width="300">La distribución es perfectamente simétrica y uniforme porque <code>Id</code> es simplemente una numeración consecutiva. La mediana coincide exactamente con la mitad del total de registros. El boxplot muestra una distribución uniforme y simétrica, lo cual es esperado ya que se trata de un identificador numérico secuencial del 1 al 148,654. La mediana (~74,000) coincide con el punto central del dataset. Al no contener información predictiva sobre salarios ni comportamiento laboral, esta variable fue excluida del conjunto de features utilizado en el modelado.</td>
+    <td><img src="reports/figures/eda_boxplot_Id.png" width="600"></td>
+  </tr>
+</table>
 
 - Gráficos de distribución de la variable objetivo.
 
