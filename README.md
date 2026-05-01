@@ -77,6 +77,7 @@ La variable objetivo fue `TotalPay`.
 <div align="justify">
   El análisis exploratorio incluyó la descripción de variables y clases, así como visualizaciones para comprender relaciones entre atributos y detectar valores atípicos.
 </div>
+<br>
 
 Entre las visualizaciones desarrolladas se incluyen:
 
