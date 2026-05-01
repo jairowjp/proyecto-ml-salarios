@@ -222,10 +222,11 @@ Entre las visualizaciones desarrolladas se incluyen:
 - Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
 
 
-
 ### 2. Preprocesamiento
 
-El preprocesamiento incluyó varias transformaciones importantes para mejorar la calidad del dataset y preparar los modelos.
+<div align="justify">
+  El preprocesamiento incluyó varias transformaciones importantes para mejorar la calidad del dataset y preparar los modelos.
+</div>
 
 Entre las principales acciones se encuentran:
 
@@ -314,7 +315,9 @@ Para el problema de regresión se utilizaron:
 
 ## Resultados de clasificación
 
-A continuación se presenta la tabla resumen de modelos de clasificación sobre el conjunto de prueba, cumpliendo con lo solicitado en la actividad.
+<div align="justify">
+  A continuación se presenta la tabla resumen de modelos de clasificación sobre el conjunto de prueba, cumpliendo con lo solicitado en la actividad.
+</div>
 
 | Modelo                        | Accuracy ↑ | Precision ↑ |   Recall ↑ | F1-Score ↑ |  AUC-ROC ↑ | Evaluación                           |
 | ----------------------------- | ---------: | ----------: | ---------: | ---------: | ---------: | ------------------------------------ |
@@ -326,11 +329,15 @@ A continuación se presenta la tabla resumen de modelos de clasificación sobre 
 
 ### Interpretación de clasificación
 
-Los resultados muestran que **Random Forest** fue el mejor modelo en términos de **F1-Score**, alcanzando **0.8154**, lo que lo convierte en la mejor opción cuando se busca equilibrio entre precisión y recall.
-
-Además, el resumen ejecutivo del notebook reporta que el mejor **AUC-ROC global** fue **0.9272**, asociado al mejor comportamiento discriminativo entre clases.
-
-Por tanto, desde una perspectiva práctica, **Random Forest** se selecciona como el modelo principal de clasificación por su desempeño robusto y balanceado, mientras que **SVM RBF** destaca como una alternativa fuerte en capacidad de separación entre clases.
+<div align="justify">
+  Los resultados muestran que **Random Forest** fue el mejor modelo en términos de **F1-Score**, alcanzando **0.8154**, lo que lo convierte en la mejor opción cuando se busca equilibrio entre precisión y recall.
+</div>
+<div align="justify">
+  Además, el resumen ejecutivo del notebook reporta que el mejor **AUC-ROC global** fue **0.9272**, asociado al mejor comportamiento discriminativo entre clases.
+</div>
+<div align="justify">
+  Por tanto, desde una perspectiva práctica, **Random Forest** se selecciona como el modelo principal de clasificación por su desempeño robusto y balanceado, mientras que **SVM RBF** destaca como una alternativa fuerte en capacidad de separación entre clases.
+</div>
 
 ## Resultados de regresión
 
@@ -346,13 +353,17 @@ La comparación de modelos de regresión sobre el conjunto de prueba fue la sigu
 
 ### Interpretación de regresión
 
-El mejor modelo de regresión fue **Random Forest Regressor**, con un **RMSE de 21,747.04** y un \(R^2\) de **0.8083**, lo que indica una mayor capacidad explicativa frente a los modelos lineales y frente al árbol individual.
-
-Esto sugiere que las relaciones entre las variables salariales y el salario total presentan componentes no lineales que son capturados mejor por modelos de ensamble.
+<div align="justify">
+  El mejor modelo de regresión fue **Random Forest Regressor**, con un **RMSE de 21,747.04** y un \(R^2\) de **0.8083**, lo que indica una mayor capacidad explicativa frente a los modelos lineales y frente al árbol individual.
+</div>
+<div align="justify">
+  Esto sugiere que las relaciones entre las variables salariales y el salario total presentan componentes no lineales que son capturados mejor por modelos de ensamble.
+</div>
 
 ### Visualización comparativa de resultados
-
-La comparación experimental de los modelos se complementó con visualizaciones en formato gráfico, tal como solicita la actividad.
+<div align="justify">
+  La comparación experimental de los modelos se complementó con visualizaciones en formato gráfico, tal como solicita la actividad.
+</div>
 
 Entre los gráficos utilizados se incluyen:
 
@@ -361,7 +372,10 @@ Entre los gráficos utilizados se incluyen:
 - Barplots comparativos de métricas de clasificación.
 - Gráficos comparativos de desempeño en regresión.
 
-De esta forma, además de la tabla resumen, el repositorio incorpora resultados visuales que facilitan la interpretación del rendimiento de cada modelo.
+<div align="justify">
+  De esta forma, además de la tabla resumen, el repositorio incorpora resultados visuales que facilitan la interpretación del rendimiento de cada modelo.
+</div>
+
 
 ### Comparación de métricas por modelo de clasificación
 
@@ -395,9 +409,12 @@ De esta forma, además de la tabla resumen, el repositorio incorpora resultados 
 
 ## Detección de overfitting
 
-En el caso de árboles de decisión, el notebook muestra una comparación entre un árbol sin poda y un árbol controlado con `maxdepth=6`, evidenciando que el árbol sin restricción alcanza un accuracy de entrenamiento cercano a **0.9999** pero baja a **0.8904** en test, mientras que el árbol podado reduce el gap a aproximadamente **0.0019**.
-
-Este comportamiento confirma la importancia de regular la complejidad del modelo para evitar sobreajuste y mejorar la generalización.
+<div align="justify">
+  En el caso de árboles de decisión, el notebook muestra una comparación entre un árbol sin poda y un árbol controlado con <code>maxdepth=6</code>, evidenciando que el árbol sin restricción alcanza un accuracy de entrenamiento cercano a <code>**0.9999**</code> pero baja a <code>**0.8904**</code> en test, mientras que el árbol podado reduce el gap a aproximadamente <code>**0.0019**</code>.
+</div>
+<div align="justify">
+  Este comportamiento confirma la importancia de regular la complejidad del modelo para evitar sobreajuste y mejorar la generalización.
+</div>
 
 ## Hallazgos principales
 
