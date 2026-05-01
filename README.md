@@ -364,6 +364,15 @@ La comparación de modelos de regresión sobre el conjunto de prueba fue la sigu
   Esto sugiere que las relaciones entre las variables salariales y el salario total presentan componentes no lineales que son capturados mejor por modelos de ensamble.
 </div>
 
+## Resultados de modelos de regresión
+
+En el problema de regresión se compararon varios modelos para predecir el salario total (`TotalPay`)
+en el conjunto de prueba, usando MAE, RMSE y R² como métricas principales.
+
+<p align="center">
+  <img src="reports/figures/modelos_regresion_comparacion.png" width="700">
+</p>
+
 ### Visualización comparativa de resultados
 <div align="justify">
   La comparación experimental de los modelos se complementó con visualizaciones en formato gráfico, tal como solicita la actividad.
