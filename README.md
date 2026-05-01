@@ -27,6 +27,7 @@ El objetivo de este proyecto es construir un pipeline completo de aprendizaje au
 <div align="justify">
   Este trabajo fue desarrollado como parte de una actividad de Aprendizaje Automático en la que se solicita implementar al menos dos modelos supervisados sobre un dataset técnico, documentar el proceso completo en un repositorio colaborativo e incluir análisis exploratorio, preprocesamiento, comparación de rendimiento y conclusiones técnicas.
 </div>
+<br>
 <div align="justify">
   La guía también exige presentar métricas obligatorias para clasificación, una tabla resumen con los resultados de cada modelo y visualizaciones comparativas en formato gráfico.
 </div>
@@ -36,6 +37,7 @@ El objetivo de este proyecto es construir un pipeline completo de aprendizaje au
 <div align="justify">
   Se utilizó el dataset **San Francisco City Employee Salaries**, que contiene información salarial de empleados públicos, incluyendo variables como salario base, pago por horas extra, otros pagos, beneficios, año y cargo laboral <code>JobTitle</code>.
 </div>
+<br>
 <div align="justify">
   En el notebook de modelado se reporta una carga inicial de <code>**148,654 filas y 13 columnas**</code>, seguida de un proceso de limpieza y transformación que deja un conjunto listo para modelado con nuevas variables derivadas.
 </div>
@@ -218,7 +220,7 @@ Entre las visualizaciones desarrolladas se incluyen:
     </td>
   </tr>
 </table>
-
+<br>
 - Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
 
 
@@ -227,7 +229,7 @@ Entre las visualizaciones desarrolladas se incluyen:
 <div align="justify">
   El preprocesamiento incluyó varias transformaciones importantes para mejorar la calidad del dataset y preparar los modelos.
 </div>
-
+<br>
 Entre las principales acciones se encuentran:
 
 - Conversión de columnas numéricas almacenadas como texto.
@@ -318,7 +320,7 @@ Para el problema de regresión se utilizaron:
 <div align="justify">
   A continuación se presenta la tabla resumen de modelos de clasificación sobre el conjunto de prueba, cumpliendo con lo solicitado en la actividad.
 </div>
-
+<br>
 | Modelo                        | Accuracy ↑ | Precision ↑ |   Recall ↑ | F1-Score ↑ |  AUC-ROC ↑ | Evaluación                           |
 | ----------------------------- | ---------: | ----------: | ---------: | ---------: | ---------: | ------------------------------------ |
 | Logistic Regression           |     0.7779 |      0.8079 |     0.7047 |     0.7528 |     0.8430 | Buen baseline                        |
@@ -332,9 +334,11 @@ Para el problema de regresión se utilizaron:
 <div align="justify">
   Los resultados muestran que **Random Forest** fue el mejor modelo en términos de **F1-Score**, alcanzando **0.8154**, lo que lo convierte en la mejor opción cuando se busca equilibrio entre precisión y recall.
 </div>
+<br>
 <div align="justify">
   Además, el resumen ejecutivo del notebook reporta que el mejor **AUC-ROC global** fue **0.9272**, asociado al mejor comportamiento discriminativo entre clases.
 </div>
+<br>
 <div align="justify">
   Por tanto, desde una perspectiva práctica, **Random Forest** se selecciona como el modelo principal de clasificación por su desempeño robusto y balanceado, mientras que **SVM RBF** destaca como una alternativa fuerte en capacidad de separación entre clases.
 </div>
@@ -356,6 +360,7 @@ La comparación de modelos de regresión sobre el conjunto de prueba fue la sigu
 <div align="justify">
   El mejor modelo de regresión fue **Random Forest Regressor**, con un **RMSE de 21,747.04** y un \(R^2\) de **0.8083**, lo que indica una mayor capacidad explicativa frente a los modelos lineales y frente al árbol individual.
 </div>
+<br>
 <div align="justify">
   Esto sugiere que las relaciones entre las variables salariales y el salario total presentan componentes no lineales que son capturados mejor por modelos de ensamble.
 </div>
@@ -364,14 +369,14 @@ La comparación de modelos de regresión sobre el conjunto de prueba fue la sigu
 <div align="justify">
   La comparación experimental de los modelos se complementó con visualizaciones en formato gráfico, tal como solicita la actividad.
 </div>
-
+<br>
 Entre los gráficos utilizados se incluyen:
 
 - Matrices de confusión para los modelos de clasificación.
 - Curvas ROC para comparar capacidad de discriminación.
 - Barplots comparativos de métricas de clasificación.
 - Gráficos comparativos de desempeño en regresión.
-
+<br>
 <div align="justify">
   De esta forma, además de la tabla resumen, el repositorio incorpora resultados visuales que facilitan la interpretación del rendimiento de cada modelo.
 </div>
@@ -412,6 +417,7 @@ Entre los gráficos utilizados se incluyen:
 <div align="justify">
   En el caso de árboles de decisión, el notebook muestra una comparación entre un árbol sin poda y un árbol controlado con <code>maxdepth=6</code>, evidenciando que el árbol sin restricción alcanza un accuracy de entrenamiento cercano a <code>**0.9999**</code> pero baja a <code>**0.8904**</code> en test, mientras que el árbol podado reduce el gap a aproximadamente <code>**0.0019**</code>.
 </div>
+<br>
 <div align="justify">
   Este comportamiento confirma la importancia de regular la complejidad del modelo para evitar sobreajuste y mejorar la generalización.
 </div>
