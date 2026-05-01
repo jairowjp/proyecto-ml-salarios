@@ -316,31 +316,31 @@ Para el problema de regresión se utilizaron:
 ## Resultados de clasificación
 
 <div align="justify">
-  A continuación se presenta la tabla resumen de modelos de clasificación sobre el conjunto de prueba, cumpliendo con lo solicitado en la actividad.
-</div>
-
-<br>
-
-| Modelo                        | Accuracy ↑ | Precision ↑ | Recall ↑ | F1-Score ↑ | AUC-ROC ↑ | Evaluación                          |
-|------------------------------|-----------:|------------:|---------:|-----------:|----------:|-------------------------------------|
-| Logistic Regression          |   0.7779   |    0.8079   |  0.7047  |   0.7528   |  0.8430   | Buen baseline                       |
-| Decision Tree (max_depth=6)  |   0.7823   |    0.7753   |  0.7692  |   0.7722   |  0.8663   | Rendimiento balanceado              |
-| Random Forest                | **0.8286** | **0.8435**  | **0.7891** | **0.8154** |  0.9101   | 🏆 Mejor rendimiento general        |
-| **SVM (RBF Kernel)**         |    N/D     |     N/D     |   N/D    |    N/D     | **0.9272** | 🔥 Mejor capacidad de discriminación |
-
-### Interpretación de clasificación
-
-<div align="justify">
-  Los resultados muestran que **Random Forest** fue el mejor modelo en términos de **F1-Score**, alcanzando **0.8154**, lo que lo convierte en la mejor opción cuando se busca equilibrio entre precisión y recall.
+  La tabla y el gráfico resumen el desempeño de los modelos de clasificación evaluados sobre el conjunto de prueba para predecir la variable objetivo `TieneOvertime`. En conjunto, muestran que `Random Forest` ofrece el mejor equilibrio global entre `Accuracy`, `Precision`, `Recall` y `F1-Score`, por lo que se considera el modelo más sólido para la tarea.
 </div>
 <br>
 <div align="justify">
-  Además, el resumen ejecutivo del notebook reporta que el mejor **AUC-ROC global** fue **0.9272**, asociado al mejor comportamiento discriminativo entre clases.
+  `Logistic Regression` funciona como una línea base adecuada, con resultados aceptables pero inferiores a los obtenidos por los modelos basados en árboles. `Decision Tree (max_depth=6)` presenta un comportamiento más balanceado que la regresión logística, aunque todavía queda por debajo de `Random Forest` en capacidad predictiva general.
 </div>
 <br>
 <div align="justify">
-  Por tanto, desde una perspectiva práctica, **Random Forest** se selecciona como el modelo principal de clasificación por su desempeño robusto y balanceado, mientras que **SVM RBF** destaca como una alternativa fuerte en capacidad de separación entre clases.
+  Por su parte, `SVM (RBF Kernel)` alcanza el valor más alto de `AUC-ROC`, lo que indica una excelente capacidad de discriminación entre clases. Sin embargo, dado que en esta comparación no se reportan todas las métricas principales en la tabla final, su interpretación se enfoca especialmente en esa capacidad discriminativa y no en el rendimiento global completo.
 </div>
+
+#### Tabla resumen de modelos de clasificación
+
+<p align="center">
+  <img src="reports/figures/tabla_modelos_clasificacion.png" width="1000">
+</p>
+
+#### Gráfico comparativo de métricas
+
+<p align="center">
+  <img src="reports/figures/grafico_modelos_clasificacion.png" width="900">
+</p>
+
+<br>
+<br>
 
 ## Resultados de modelos de regresión
 
