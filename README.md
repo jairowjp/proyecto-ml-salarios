@@ -82,7 +82,13 @@ La variable objetivo fue `TotalPay`.
 Entre las visualizaciones desarrolladas se incluyen:
 
 - Matriz de correlación entre variables numéricas.
+- Boxplots de variables salariales.
+- Gráficos de distribución de la variable objetivo.
+- Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
+<br>
+<br>
 
+- Matriz de correlación entre variables numéricas:
 <table>
   <tr>
     <td width="300">
@@ -99,7 +105,7 @@ Entre las visualizaciones desarrolladas se incluyen:
   </tr>
 </table>
 
-- Boxplots de variables salariales.
+- Boxplots de variables salariales:
 
 <table>
   <tr>
@@ -189,7 +195,7 @@ Entre las visualizaciones desarrolladas se incluyen:
   </tr>
 </table>
 
-- Gráficos de distribución de la variable objetivo.
+- Gráficos de distribución de la variable objetivo:
 <table>
   <tr>
     <td width="320">
