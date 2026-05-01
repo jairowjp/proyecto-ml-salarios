@@ -198,7 +198,7 @@ Entre las visualizaciones desarrolladas se incluyen:
 - Gráficos de distribución de la variable objetivo:
 <table>
   <tr>
-    <td width="320">
+    <td width="300">
       <div align="justify">
         La variable objetivo <code>TieneOvertime</code> indica si un empleado recibió
         o no pago por horas extra durante el año de registro. La distribución de
@@ -213,8 +213,8 @@ Entre las visualizaciones desarrolladas se incluyen:
       </div>
     </td>
     <td>
-      <img src="reports/figures/eda_distribucion_TieneOvertime.png" width="350"><br>
-      <img src="reports/figures/eda_proporcion_TieneOvertime.png" width="350">
+      <img src="reports/figures/eda_distribucion_TieneOvertime.png" width="600"><br>
+      <img src="reports/figures/eda_proporcion_TieneOvertime.png" width="600">
     </td>
   </tr>
 </table>
