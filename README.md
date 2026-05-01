@@ -262,21 +262,24 @@ Entre los gráficos utilizados se incluyen:
 
 De esta forma, además de la tabla resumen, el repositorio incorpora resultados visuales que facilitan la interpretación del rendimiento de cada modelo.
 
-### Comparación visual de modelos
+### Comparación de métricas por modelo de clasificación
 
 <table>
   <tr>
     <td width="320">
-      La comparación experimental se complementa con un gráfico de barras que resume, 
-      en una sola vista, el desempeño de todos los modelos de clasificación. 
-      En el eje X se muestran las métricas (Accuracy, Precision, Recall, F1-Score y AUC-ROC) 
-      y para cada métrica aparecen cuatro barras, una por modelo 
-      (Logistic Regression, Decision Tree, Random Forest y SVM RBF).<br><br>
-      El gráfico permite observar que SVM RBF y Random Forest son consistentemente 
-      superiores al árbol de decisión y a la regresión logística, especialmente en 
-      F1-Score y AUC-ROC. Además, se aprecia que no hay un modelo que sea claramente 
-      dominante en todas las métricas, pero SVM RBF presenta el mejor equilibrio global, 
-      lo que respalda su elección como modelo principal para predecir `TieneOvertime`.
+       El siguiente gráfico resume el desempeño de los cuatro modelos de
+      clasificación evaluados para predecir la variable objetivo
+      <code>TieneOvertime</code> sobre el conjunto de prueba. Se muestran,
+      para cada modelo, las métricas estándar de clasificación:
+      <code>Accuracy</code>, <code>Precision</code>, <code>Recall</code>,
+      <code>F1-Score</code> y <code>AUC-ROC</code>.<br><br>
+      El <code>Random Forest</code> y la <code>SVM con kernel RBF</code> son
+      los modelos con mejor rendimiento global, alcanzando los valores más
+      altos de <code>F1-Score</code> y <code>AUC-ROC</code>. Esto indica que
+      logran un buen equilibrio entre aciertos en ambas clases y capacidad de
+      discriminación entre empleados con y sin overtime, superando a la
+      <code>Logistic Regression</code> y al <code>Decision Tree</code> en la
+      mayoría de las métricas.
     </td>
     <td>
       <img src="reports/figures/barplot_metricas_modelos.png" width="800">
