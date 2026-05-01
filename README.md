@@ -97,8 +97,6 @@ Entre las visualizaciones desarrolladas se incluyen:
 </table>
 
 - Gráficos de distribución de la variable objetivo.
-<h3>Distribución de la variable objetivo</h3>
-
 <table>
   <tr>
     <td width="320">
