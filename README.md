@@ -243,6 +243,29 @@ Entre los gráficos utilizados se incluyen:
 
 De esta forma, además de la tabla resumen, el repositorio incorpora resultados visuales que facilitan la interpretación del rendimiento de cada modelo.
 
+### Comparación visual de modelos
+
+<table>
+  <tr>
+    <td width="320">
+      La comparación experimental se complementa con un gráfico de barras que resume, 
+      en una sola vista, el desempeño de todos los modelos de clasificación. 
+      En el eje X se muestran las métricas (Accuracy, Precision, Recall, F1-Score y AUC-ROC) 
+      y para cada métrica aparecen cuatro barras, una por modelo 
+      (Logistic Regression, Decision Tree, Random Forest y SVM RBF).<br><br>
+      El gráfico permite observar que SVM RBF y Random Forest son consistentemente 
+      superiores al árbol de decisión y a la regresión logística, especialmente en 
+      F1-Score y AUC-ROC. Además, se aprecia que no hay un modelo que sea claramente 
+      dominante en todas las métricas, pero SVM RBF presenta el mejor equilibrio global, 
+      lo que respalda su elección como modelo principal para predecir `TieneOvertime`.
+    </td>
+    <td>
+      <img src="reports/figures/evaluacion_barplot_metricas_clasificacion.png" width="800">
+    </td>
+  </tr>
+</table>
+
+
 ## Detección de overfitting
 
 En el caso de árboles de decisión, el notebook muestra una comparación entre un árbol sin poda y un árbol controlado con `maxdepth=6`, evidenciando que el árbol sin restricción alcanza un accuracy de entrenamiento cercano a **0.9999** pero baja a **0.8904** en test, mientras que el árbol podado reduce el gap a aproximadamente **0.0019**.
