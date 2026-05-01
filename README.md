@@ -97,7 +97,28 @@ Entre las visualizaciones desarrolladas se incluyen:
 </table>
 
 - Gráficos de distribución de la variable objetivo.
+<h3>Distribución de la variable objetivo</h3>
 
+<table>
+  <tr>
+    <td width="320">
+      La variable objetivo <code>TieneOvertime</code> indica si un empleado recibió 
+      o no pago por horas extra durante el año de registro. La distribución de 
+      clases es aproximadamente balanceada, con una ligera mayoría de empleados 
+      sin overtime. Esto es favorable para el entrenamiento de modelos de 
+      clasificación, ya que reduce el riesgo de que el modelo se sesgue en exceso 
+      hacia una sola clase.<br><br>
+      El gráfico de barras muestra el conteo absoluto de empleados en cada clase, 
+      mientras que el gráfico circular resume la misma información en términos 
+      porcentuales, permitiendo apreciar de forma rápida la proporción relativa 
+      entre <code>Sin overtime</code> y <code>Con overtime</code>.
+    </td>
+    <td>
+      <img src="reports/figures/eda_distribucion_TieneOvertime.png" width="450"><br>
+      <img src="reports/figures/eda_proporcion_TieneOvertime.png" width="450">
+    </td>
+  </tr>
+</table>
 
 - Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
 
