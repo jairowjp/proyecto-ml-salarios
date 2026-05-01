@@ -481,39 +481,42 @@ Una organización recomendada para este proyecto es la siguiente:
 
 ```text
 desarrollo/
-├── README.md
-├── requirements.txt
+│── .gitignore
+│── README.md
+│── requirements.txt
 │
 ├── data/
 │   ├── raw/
-│   │   └── dataset_original.csv        # dataset original de salarios
+│   │   └── dataset_original.csv
 │   └── processed/
-│       └── dataset_limpio.csv          # dataset preprocesado para modelado
+│       └── dataset_limpio.csv
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb                    # análisis exploratorio de datos (EDA)
-│   ├── 02_preprocesamiento.ipynb       # limpieza, imputación y feature engineering
-│   ├── 03_modelado.ipynb               # entrenamiento de modelos de clasificación
-│   └── 04_evaluacion.ipynb             # resumen visual y conclusiones de los modelos
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocesamiento.ipynb
+│   ├── 03_modelado.ipynb
+│   ├── 04_evaluacion.ipynb
+│   └── 04_regresion_evaluacion.ipynb
 │
 ├── reports/
-│   ├── resultados_clasificacion.csv    # métricas de clasificación en test
-│   └── figures/                        # figuras generadas en los notebooks
+│   ├── resultados_clasificacion.csv
+│   └── figures/
+│       ├── barplot_metricas_modelos.png
+│       ├── cm_decision_tree_(max_depth=6).png
+│       ├── cm_logistic_regression.png
+│       ├── cm_random_forest.png
+│       ├── cm_svm_(rbf,_20%_train).png
 │       ├── eda_boxplot_Id.png
 │       ├── eda_boxplot_TotalPay.png
 │       ├── eda_boxplot_TotalPayBenefits.png
 │       ├── eda_boxplot_Year.png
 │       ├── eda_distribucion_TieneOvertime.png
-│       ├── eda_proporcion_TieneOvertime.png
 │       ├── eda_matriz_correlacion.png
-│       ├── cm_logistic_regression.png
-│       ├── cm_decision_tree_(max_depth=6).png
-│       ├── cm_random_forest.png
-│       ├── cm_svm_(rbf,_20%_train).png
-│       ├── barplot_metricas_modelos.png
-│       └── evaluacion_barplot_metricas_clasificacion.png
+│       ├── eda_proporcion_TieneOvertime.png
+│       ├── evaluacion_barplot_metricas_clasificacion.png
+│       └── modelos_regresion_comparacion.png
 │
-└── src/                                # (reservado para funciones auxiliares)
+└── src/
 ```
 
 ## Tecnologías y librerías utilizadas
