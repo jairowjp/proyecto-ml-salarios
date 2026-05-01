@@ -318,21 +318,21 @@ Para el problema de regresión se utilizaron:
   <tr>
     <td width="300">
       <div align="justify">
-        La tabla y el gráfico resumen el desempeño de los modelos de clasificación evaluados sobre el conjunto de prueba para predecir la variable objetivo `TieneOvertime`. En conjunto, muestran que `Random Forest` ofrece el mejor equilibrio global entre `Accuracy`, `Precision`, `Recall` y `F1-Score`, por lo que se considera el modelo más sólido para la tarea.
+        La tabla y el gráfico resumen el desempeño de los modelos de clasificación evaluados sobre el conjunto de prueba para predecir la variable objetivo <code>`TieneOvertime`</code>. En conjunto, muestran que `Random Forest` ofrece el mejor equilibrio global entre <code>`Accuracy`</code>, <code>`Precision`</code>, <code>`Recall`</code> y <code>`F1-Score`</code>, por lo que se considera el modelo más sólido para la tarea.
       </div> <br>
       <div align="justify">
-         `Logistic Regression` funciona como una línea base adecuada, con resultados aceptables pero inferiores a los obtenidos por los modelos basados en árboles. `Decision Tree (max_depth=6)` presenta un comportamiento más balanceado que la regresión logística, aunque todavía queda por debajo de `Random Forest` en capacidad predictiva general.
+         <code>`Logistic Regression`</code> funciona como una línea base adecuada, con resultados aceptables pero inferiores a los obtenidos por los modelos basados en árboles. <code>`Decision Tree (max_depth=6)`</code> presenta un comportamiento más balanceado que la regresión logística, aunque todavía queda por debajo de <code>`Random Forest`</code> en capacidad predictiva general.
       </div>
       </div> <br>
       <div align="justify">
-         Por su parte, `SVM (RBF Kernel)` alcanza el valor más alto de `AUC-ROC`, lo que indica una excelente capacidad de discriminación entre clases. Sin embargo, dado que en esta comparación no se reportan todas las métricas principales en la tabla final, su interpretación se enfoca especialmente en esa capacidad discriminativa y no en el rendimiento global completo.
+         Por su parte, <code>`SVM (RBF Kernel)`</code> alcanza el valor más alto de `AUC-ROC`, lo que indica una excelente capacidad de discriminación entre clases. Sin embargo, dado que en esta comparación no se reportan todas las métricas principales en la tabla final, su interpretación se enfoca especialmente en esa capacidad discriminativa y no en el rendimiento global completo.
       </div>
     </td>
     <td>
         <p align="center">
           Tabla resumen de modelos de clasificación
         </p>
-      <img src="reports/figures/tabla_modelos_clasificacion.png" width="600"><br>
+      <img src="reports/figures/tabla_modelos_clasificacion.png" width="600"><br><br>
       <p align="center">
           Gráfico comparativo de métricas
         </p>
