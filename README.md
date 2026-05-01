@@ -1,4 +1,4 @@
-# <p align="center">
+<p align="center">
   <strong>
     CLASIFICACIÓN Y REGRESIÓN SUPERVISADA CON EL DATASET
     SAN FRANCISCO CITY EMPLOYEE SALARIES
