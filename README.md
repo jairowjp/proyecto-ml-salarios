@@ -398,13 +398,38 @@ Este comportamiento confirma la importancia de regular la complejidad del modelo
 
 ## Conclusiones técnicas
 
-Este proyecto demuestra que un enfoque de pipeline completo —desde limpieza de datos hasta comparación experimental— permite construir soluciones supervisadas sólidas sobre datos reales, tal como solicita la actividad académica.
+<div align="justify">
+  Este proyecto demuestra que un enfoque de pipeline completo —desde limpieza
+  de datos hasta comparación experimental— permite construir soluciones
+  supervisadas sólidas sobre datos reales, tal como solicita la actividad
+  académica.
+</div>
 
-Para clasificación, el modelo recomendado es **Random Forest**, ya que ofrece el mejor balance entre precisión y recall, reflejado en su F1-Score superior.
+<br>
 
-Para regresión, el modelo recomendado es **Random Forest Regressor**, debido a su mejor capacidad predictiva y a su menor error en comparación con los modelos lineales y con el árbol de decisión individual.
+<div align="justify">
+  Para clasificación, el modelo recomendado es <strong>Random Forest</strong>,
+  ya que ofrece el mejor balance entre precisión y recall, reflejado en su
+  F1-Score superior.
+</div>
 
-En términos metodológicos, el trabajo también refuerza varias lecciones importantes: comenzar con un baseline, comparar train y test para detectar sobreajuste, usar métricas correctas según el problema y evitar el uso del conjunto de prueba durante cualquier etapa de ajuste.
+<br>
+
+<div align="justify">
+  Para regresión, el modelo recomendado es
+  <strong>Random Forest Regressor</strong>, debido a su mejor capacidad
+  predictiva y a su menor error en comparación con los modelos lineales y con
+  el árbol de decisión individual.
+</div>
+
+<br>
+
+<div align="justify">
+  En términos metodológicos, el trabajo también refuerza varias lecciones
+  importantes: comenzar con un baseline, comparar train y test para detectar
+  sobreajuste, usar métricas correctas según el problema y evitar el uso del
+  conjunto de prueba durante cualquier etapa de ajuste.
+</div>
 
 ## Estructura del repositorio
 
