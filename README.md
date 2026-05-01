@@ -86,7 +86,7 @@ Entre las visualizaciones desarrolladas se incluyen:
 - Matriz de correlación entre variables numéricas.
 - Boxplots de variables salariales.
 - Gráficos de distribución de la variable objetivo.
-- Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
+
 <br>
 <br>
 
@@ -221,8 +221,6 @@ Entre las visualizaciones desarrolladas se incluyen:
   </tr>
 </table>
 <br>
-- Visualizaciones de apoyo para identificar patrones y comportamiento de los datos.
-
 
 ### 2. Preprocesamiento
 
