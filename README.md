@@ -1,4 +1,4 @@
-# CLASIFICACIÓN Y REGRESIÓN SUPERVISADA CON EL DATASET
+# CLASIFICACIÓN Y REGRESIÓN SUPERVISADA CON EL DATASET SAN FRANCISCO CITY EMPLOYEE SALARIES
 Proyecto académico de Aprendizaje Automático orientado al desarrollo, entrenamiento y comparación de modelos supervisados de clasificación y regresión aplicados a un caso técnico real: el análisis de salarios y horas extra de empleados públicos de la ciudad de San Francisco.
 
 ## Objetivo del proyecto
