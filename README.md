@@ -347,24 +347,19 @@ Para el problema de regresión se utilizaron:
 <br>
 
 ## Resultados de modelos de regresión
-
 <table>
   <tr>
     <td width="300">
       <div align="justify">
-        En el problema de regresión se compararon varios modelos para predecir el salario total (`TotalPay`)
-        en el conjunto de prueba, usando MAE, RMSE y R² como métricas principales.
+        En el problema de regresión se compararon varios modelos para predecir el salario total (<code>TotalPay</code>) en el conjunto de prueba, usando MAE, RMSE y R² como métricas principales.
       </div> <br>
       <div align="justify">
-         La figura muestra que los modelos lineales (`Regresión Lineal` y `Ridge`) sirven como línea base,
-        pero mantienen errores (MAE y RMSE) más altos y un R² cercano al 0.62.
+         La figura muestra que los modelos lineales (<code>Regresión Lineal</code> y <code>Ridge</code>) sirven como línea base, pero mantienen errores (MAE y RMSE) más altos y un R² cercano al 0.62.
       </div>
       </div> <br>
       <div align="justify">
          Los modelos basados en árboles reducen de forma importante el error y aumentan la varianza explicada:
-         `Decision Tree Regressor d=8` mejora de forma notable el desempeño y el `Random Forest Regressor`
-         alcanza el menor MAE/RMSE y el mayor R² (~0.81), por lo que se selecciona como el mejor modelo
-         global para predecir `TotalPay`.
+         <code>Decision Tree Regressor d=8</code> mejora de forma notable el desempeño y el <code>Random Forest Regressor</code> alcanza el menor MAE/RMSE y el mayor R² (~0.81), por lo que se selecciona como el mejor modelo global para predecir <code>TotalPay</code>.
       </div>
     </td>
     <td>
