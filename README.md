@@ -112,8 +112,8 @@ Entre las visualizaciones desarrolladas se incluyen:
       entre <code>Sin overtime</code> y <code>Con overtime</code>.
     </td>
     <td>
-      <img src="reports/figures/eda_distribucion_TieneOvertime.png" width="450"><br>
-      <img src="reports/figures/eda_proporcion_TieneOvertime.png" width="450">
+      <img src="reports/figures/eda_distribucion_TieneOvertime.png" width="350"><br>
+      <img src="reports/figures/eda_proporcion_TieneOvertime.png" width="350">
     </td>
   </tr>
 </table>
