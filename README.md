@@ -272,7 +272,7 @@ De esta forma, además de la tabla resumen, el repositorio incorpora resultados 
       <div align="justify">
         El siguiente gráfico resume el desempeño de los cuatro modelos de
         clasificación evaluados para predecir la variable objetivo
-        de>TieneOvertime</code> sobre el conjunto de prueba. Se muestran,
+        de >TieneOvertime</code> sobre el conjunto de prueba. Se muestran,
         para cada modelo, las métricas estándar de clasificación:
         de>Accuracy</code>, de>Precision</code>, de>Recall</code>,
         de>F1-Score</code> y de>AUC-ROC</code>.<br><br>
