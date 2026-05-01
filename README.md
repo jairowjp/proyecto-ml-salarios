@@ -37,7 +37,7 @@ El objetivo de este proyecto es construir un pipeline completo de aprendizaje au
   Se utilizó el dataset **San Francisco City Employee Salaries**, que contiene información salarial de empleados públicos, incluyendo variables como salario base, pago por horas extra, otros pagos, beneficios, año y cargo laboral <code>JobTitle</code>.
 </div>
 <div align="justify">
-  En el notebook de modelado se reporta una carga inicial de **148,654 filas y 13 columnas**, seguida de un proceso de limpieza y transformación que deja un conjunto listo para modelado con nuevas variables derivadas.
+  En el notebook de modelado se reporta una carga inicial de <code>**148,654 filas y 13 columnas**</code>, seguida de un proceso de limpieza y transformación que deja un conjunto listo para modelado con nuevas variables derivadas.
 </div>
 
 
