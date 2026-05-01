@@ -16,12 +16,10 @@ El objetivo de este proyecto es construir un pipeline completo de aprendizaje au
     <li>
       Estimar el salario total de un empleado (<code>TotalPay</code>) mediante modelos de regresión supervisada.
     </li>
-    
+    <li>
+      - Comparar experimentalmente distintos modelos usando métricas apropiadas y visualizaciones claras, tal como exige la actividad.
+    </li>
   </ul>
-</div>
-
-<div align="justify">
-  - Comparar experimentalmente distintos modelos usando métricas apropiadas y visualizaciones claras, tal como exige la actividad.
 </div>
 
 ## Contexto académico
