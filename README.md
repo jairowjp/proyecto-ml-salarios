@@ -332,7 +332,9 @@ Para el problema de regresión se utilizaron:
         <p align="center">
           Tabla resumen de modelos de clasificación
         </p>
-      <img src="reports/figures/tabla_modelos_clasificacion.png" width="600"><br><br>
+      <img src="reports/figures/tabla_modelos_clasificacion.png" width="600">
+      <br>
+      <br><br>
       <p align="center">
           Gráfico comparativo de métricas
         </p>
