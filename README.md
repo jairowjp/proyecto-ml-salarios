@@ -410,8 +410,6 @@ En términos metodológicos, el trabajo también refuerza varias lecciones impor
 
 Una organización recomendada para este proyecto es la siguiente:
 
-### Estructura del proyecto
-
 ```text
 desarrollo/
 ├── README.md
