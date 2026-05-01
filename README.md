@@ -272,16 +272,16 @@ De esta forma, además de la tabla resumen, el repositorio incorpora resultados 
       <div align="justify">
         El siguiente gráfico resume el desempeño de los cuatro modelos de
         clasificación evaluados para predecir la variable objetivo
-        de >TieneOvertime</code> sobre el conjunto de prueba. Se muestran,
+        de <code>TieneOvertime</code> sobre el conjunto de prueba. Se muestran,
         para cada modelo, las métricas estándar de clasificación:
-        de>Accuracy</code>, de>Precision</code>, de>Recall</code>,
-        de>F1-Score</code> y de>AUC-ROC</code>.<br><br>
-        El de>Random Forest</code> y la de>SVM con kernel RBF</code> son
+        de <code>Accuracy</code>, <code>Precision</code>, <code>Recall</code>,
+        <code>F1-Score</code> y de <code>AUC-ROC</code>.<br><br>
+        El <code>Random Forest</code> y la <code>SVM con kernel RBF</code> son
         los modelos con mejor rendimiento global, alcanzando los valores más
-        altos de de>F1-Score</code> y de>AUC-ROC</code>. Esto indica que
+        altos de <code>F1-Score</code> y <code>AUC-ROC</code>. Esto indica que
         logran un buen equilibrio entre aciertos en ambas clases y capacidad de
         discriminación entre empleados con y sin overtime, superando a la
-        de>Logistic Regression</code> y al de>Decision Tree</code> en la
+        de <code>Logistic Regression</code> y al de <code>Decision Tree</code> en la
         mayoría de las métricas.
       </div>
     </td>
