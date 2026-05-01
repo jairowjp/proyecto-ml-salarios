@@ -266,7 +266,7 @@ De esta forma, además de la tabla resumen, el repositorio incorpora resultados 
 
 <table>
   <tr>
-    <td width="320">
+    <td width="320" style="text-align: justify;">
        El siguiente gráfico resume el desempeño de los cuatro modelos de
       clasificación evaluados para predecir la variable objetivo
       <code>TieneOvertime</code> sobre el conjunto de prueba. Se muestran,
