@@ -342,32 +342,17 @@ Para el problema de regresión se utilizaron:
   Por tanto, desde una perspectiva práctica, **Random Forest** se selecciona como el modelo principal de clasificación por su desempeño robusto y balanceado, mientras que **SVM RBF** destaca como una alternativa fuerte en capacidad de separación entre clases.
 </div>
 
-## Resultados de regresión
-
-La comparación de modelos de regresión sobre el conjunto de prueba fue la siguiente:
-
-| Modelo                                  | MAE ↓ (Error Absoluto Medio) | RMSE ↓ (Raíz del Error Cuadrático) | R² ↑ (Coeficiente de Determinación) | Evaluación            |
-| --------------------------------------- | ---------------------------: | ---------------------------------: | ----------------------------------: | --------------------- |
-| Regresión Lineal                        |                    21,797.61 |                          30,708.89 |                               0.618 | Base (bajo desempeño) |
-| Ridge (α = 10)                          |                    21,797.14 |                          30,708.87 |                               0.618 | Similar a Lineal      |
-| Decision Tree Regressor (max_depth = 8) |                    11,062.64 |                          22,686.61 |                               0.791 | Mejora significativa  |
-| **Random Forest Regressor**             |                 **8,896.11** |                      **21,747.04** |                           **0.808** | 🏆 Mejor modelo       |
-
-
-### Interpretación de regresión
-
-<div align="justify">
-  El mejor modelo de regresión fue **Random Forest Regressor**, con un **RMSE de 21,747.04** y un \(R^2\) de **0.8083**, lo que indica una mayor capacidad explicativa frente a los modelos lineales y frente al árbol individual.
-</div>
-<br>
-<div align="justify">
-  Esto sugiere que las relaciones entre las variables salariales y el salario total presentan componentes no lineales que son capturados mejor por modelos de ensamble.
-</div>
-
 ## Resultados de modelos de regresión
 
 En el problema de regresión se compararon varios modelos para predecir el salario total (`TotalPay`)
 en el conjunto de prueba, usando MAE, RMSE y R² como métricas principales.
+
+La figura muestra que los modelos lineales (`Regresión Lineal` y `Ridge`) sirven como línea base,
+pero mantienen errores (MAE y RMSE) más altos y un R² cercano al 0.62.  
+Los modelos basados en árboles reducen de forma importante el error y aumentan la varianza explicada:
+`Decision Tree Regressor d=8` mejora de forma notable el desempeño y el `Random Forest Regressor`
+alcanza el menor MAE/RMSE y el mayor R² (~0.81), por lo que se selecciona como el mejor modelo
+global para predecir `TotalPay`.
 
 <p align="center">
   <img src="reports/figures/modelos_regresion_comparacion.png" width="700">
