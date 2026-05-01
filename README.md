@@ -70,29 +70,89 @@ Entre las visualizaciones desarrolladas se incluyen:
 
 <table>
   <tr>
-    <td width="300">El boxplot de <code>TotalPay</code> revela una distribución fuertemente sesgada hacia la derecha. La mayoría de los empleados concentra su salario total entre $36,000 y $105,000 (rango intercuartílico), con una mediana de aproximadamente $71,000. Se identifican múltiples valores atípicos superiores a $210,000, llegando hasta $567,000, lo que indica la presencia de empleados con compensaciones excepcionalmente altas que justifican el tratamiento de outliers aplicado en el preprocesamiento.</td>
-    <td><img src="reports/figures/eda_boxplot_TotalPay.png" width="600"></td>
+    <td width="300">
+      <div align="justify">
+        El boxplot de <code>TotalPay</code> revela una distribución fuertemente
+        sesgada hacia la derecha. La mayoría de los empleados concentra su
+        salario total entre <code>$36,000</code> y <code>$105,000</code>
+        (rango intercuartílico), con una mediana de aproximadamente
+        <code>$71,000</code>. Se identifican múltiples valores atípicos
+        superiores a <code>$210,000</code>, llegando hasta
+        <code>$567,000</code>, lo que indica la presencia de empleados con
+        compensaciones excepcionalmente altas que justifican el tratamiento de
+        <code>outliers</code> aplicado en el preprocesamiento.
+      </div>
+    </td>
+    <td>
+      <img src="reports/figures/eda_boxplot_TotalPay.png" width="600">
+    </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="300">El boxplot de <code>TotalPayBenefits</code> muestra la distribución del salario total incluyendo beneficios. La mediana se ubica cerca de $92,000, con el 50% central de los empleados entre $44,000 y $133,000. Se observan múltiples valores atípicos que superan los $270,000, llegando hasta $568,000. Comparado con <code>TotalPay</code>, esta variable presenta valores consistentemente mayores, confirmando que los beneficios representan una parte relevante de la compensación total y refuerza la necesidad del tratamiento de outliers aplicado en el preprocesamiento.</td>
-    <td><img src="reports/figures/eda_boxplot_TotalPayBenefits.png" width="600"></td>
+    <td width="300">
+      <div align="justify">
+        El boxplot de <code>TotalPayBenefits</code> muestra la distribución del
+        salario total incluyendo beneficios. La mediana se ubica cerca de
+        <code>$92,000</code>, con el 50% central de los empleados entre
+        <code>$44,000</code> y <code>$133,000</code>. Se observan múltiples
+        valores atípicos que superan los <code>$270,000</code>, llegando hasta
+        <code>$568,000</code>. Comparado con <code>TotalPay</code>, esta
+        variable presenta valores consistentemente mayores, confirmando que los
+        beneficios representan una parte relevante de la compensación total y
+        refuerza la necesidad del tratamiento de <code>outliers</code> aplicado
+        en el preprocesamiento.
+      </div>
+    </td>
+    <td>
+      <img src="reports/figures/eda_boxplot_TotalPayBenefits.png" width="600">
+    </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="300">Este gráfico es completamente diferente a los dos anteriores. <code>Year</code> no es una variable salarial sino una variable de tiempo discreta que solo toma 4 valores posibles: 2011, 2012, 2013 y 2014. El boxplot confirma que el dataset cubre el período 2011–2014. La mediana se ubica en 2013, lo que indica una leve concentración de registros en los años más recientes. Al ser una variable temporal discreta con solo 4 valores posibles, no presenta outliers y su distribución es uniforme. Esta variable fue incluida como feature en el modelado para capturar posibles tendencias salariales a lo largo del tiempo.</td>
-    <td><img src="reports/figures/eda_boxplot_Year.png" width="600"></td>
+    <td width="300">
+      <div align="justify">
+        Este gráfico es completamente diferente a los dos anteriores.
+        <code>Year</code> no es una variable salarial sino una variable de
+        tiempo discreta que solo toma 4 valores posibles:
+        <code>2011</code>, <code>2012</code>, <code>2013</code> y
+        <code>2014</code>. El boxplot confirma que el dataset cubre el período
+        <code>2011–2014</code>. La mediana se ubica en <code>2013</code>, lo
+        que indica una leve concentración de registros en los años más
+        recientes. Al ser una variable temporal discreta con solo 4 valores
+        posibles, no presenta <code>outliers</code> y su distribución es
+        uniforme. Esta variable fue incluida como <code>feature</code> en el
+        modelado para capturar posibles tendencias salariales a lo largo del
+        tiempo.
+      </div>
+    </td>
+    <td>
+      <img src="reports/figures/eda_boxplot_Year.png" width="600">
+    </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="300">La distribución es perfectamente simétrica y uniforme porque <code>Id</code> es simplemente una numeración consecutiva. La mediana coincide exactamente con la mitad del total de registros. El boxplot muestra una distribución uniforme y simétrica, lo cual es esperado ya que se trata de un identificador numérico secuencial del 1 al 148,654. La mediana (~74,000) coincide con el punto central del dataset. Al no contener información predictiva sobre salarios ni comportamiento laboral, esta variable fue excluida del conjunto de features utilizado en el modelado.</td>
-    <td><img src="reports/figures/eda_boxplot_Id.png" width="600"></td>
+    <td width="300">
+      <div align="justify">
+        La distribución es perfectamente simétrica y uniforme porque
+        <code>Id</code> es simplemente una numeración consecutiva. La mediana
+        coincide exactamente con la mitad del total de registros. El boxplot
+        muestra una distribución uniforme y simétrica, lo cual es esperado ya
+        que se trata de un identificador numérico secuencial del
+        <code>1</code> al <code>148,654</code>. La mediana (~<code>74,000</code>)
+        coincide con el punto central del dataset. Al no contener información
+        predictiva sobre salarios ni comportamiento laboral, esta variable fue
+        excluida del conjunto de <code>features</code> utilizado en el modelado.
+      </div>
+    </td>
+    <td>
+      <img src="reports/figures/eda_boxplot_Id.png" width="600">
+    </td>
   </tr>
 </table>
 
@@ -100,16 +160,18 @@ Entre las visualizaciones desarrolladas se incluyen:
 <table>
   <tr>
     <td width="320">
-      La variable objetivo <code>TieneOvertime</code> indica si un empleado recibió 
-      o no pago por horas extra durante el año de registro. La distribución de 
-      clases es aproximadamente balanceada, con una ligera mayoría de empleados 
-      sin overtime. Esto es favorable para el entrenamiento de modelos de 
-      clasificación, ya que reduce el riesgo de que el modelo se sesgue en exceso 
-      hacia una sola clase.<br><br>
-      El gráfico de barras muestra el conteo absoluto de empleados en cada clase, 
-      mientras que el gráfico circular resume la misma información en términos 
-      porcentuales, permitiendo apreciar de forma rápida la proporción relativa 
-      entre <code>Sin overtime</code> y <code>Con overtime</code>.
+      <div align="justify">
+        La variable objetivo <code>TieneOvertime</code> indica si un empleado recibió
+        o no pago por horas extra durante el año de registro. La distribución de
+        clases es aproximadamente balanceada, con una ligera mayoría de empleados
+        sin <code>overtime</code>. Esto es favorable para el entrenamiento de modelos de
+        clasificación, ya que reduce el riesgo de que el modelo se sesgue en exceso
+        hacia una sola clase.<br><br>
+        El gráfico de barras muestra el conteo absoluto de empleados en cada clase,
+        mientras que el gráfico circular resume la misma información en términos
+        porcentuales, permitiendo apreciar de forma rápida la proporción relativa
+        entre <code>Sin overtime</code> y <code>Con overtime</code>.
+      </div>
     </td>
     <td>
       <img src="reports/figures/eda_distribucion_TieneOvertime.png" width="350"><br>
