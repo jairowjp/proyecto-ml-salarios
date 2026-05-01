@@ -41,8 +41,6 @@ El objetivo de este proyecto es construir un pipeline completo de aprendizaje au
 </div>
 
 
-
-
 ## Problemas abordados
 
 ### Clasificación
@@ -66,15 +64,19 @@ La variable objetivo fue `TotalPay`.
 
 ## Flujo metodológico
 
-El proyecto sigue un pipeline estructurado de ciencia de datos y aprendizaje automático, alineado con las etapas pedidas en la actividad.
+<div align="justify">
+  El proyecto sigue un pipeline estructurado de ciencia de datos y aprendizaje automático, alineado con las etapas pedidas en la actividad.
+</div>
 
 ### 1. Análisis exploratorio de datos
-
-Se realizó una revisión inicial del dominio del problema, de las variables disponibles y de la distribución de las clases, además de visualizaciones orientadas a comprender relaciones entre atributos y detectar valores atípicos.
+<div align="justify">
+  Se realizó una revisión inicial del dominio del problema, de las variables disponibles y de la distribución de las clases, además de visualizaciones orientadas a comprender relaciones entre atributos y detectar valores atípicos.
+</div>
 
 ### Visualizaciones del EDA — Boxplots por variable numérica
-
-El análisis exploratorio incluyó la descripción de variables y clases, así como visualizaciones para comprender relaciones entre atributos y detectar valores atípicos.
+<div align="justify">
+  El análisis exploratorio incluyó la descripción de variables y clases, así como visualizaciones para comprender relaciones entre atributos y detectar valores atípicos.
+</div>
 
 Entre las visualizaciones desarrolladas se incluyen:
 
