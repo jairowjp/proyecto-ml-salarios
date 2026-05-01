@@ -410,25 +410,43 @@ En términos metodológicos, el trabajo también refuerza varias lecciones impor
 
 Una organización recomendada para este proyecto es la siguiente:
 
-```bash
-proyecto-ml-salaries/
-│
+### Estructura del proyecto
+
+```text
+desarrollo/
 ├── README.md
+├── requirements.txt
+│
 ├── data/
-│   └── dataset_original.csv
+│   ├── raw/
+│   │   └── dataset_original.csv        # dataset original de salarios
+│   └── processed/
+│       └── dataset_limpio.csv          # dataset preprocesado para modelado
+│
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_preprocesamiento.ipynb
-│   ├── 03_modelado.ipynb
-│   └── 04_evaluacion.ipynb
+│   ├── 01_eda.ipynb                    # análisis exploratorio de datos (EDA)
+│   ├── 02_preprocesamiento.ipynb       # limpieza, imputación y feature engineering
+│   ├── 03_modelado.ipynb               # entrenamiento de modelos de clasificación
+│   └── 04_evaluacion.ipynb             # resumen visual y conclusiones de los modelos
+│
 ├── reports/
-│   ├── resultados_clasificacion.csv
-│   ├── resultados_regresion.csv
-│   ├── matriz_confusion.png
-│   ├── comparacion_clasificacion.png
-│   └── comparacion_regresion.png
-└── src/
-    └── utilidades.py
+│   ├── resultados_clasificacion.csv    # métricas de clasificación en test
+│   └── figures/                        # figuras generadas en los notebooks
+│       ├── eda_boxplot_Id.png
+│       ├── eda_boxplot_TotalPay.png
+│       ├── eda_boxplot_TotalPayBenefits.png
+│       ├── eda_boxplot_Year.png
+│       ├── eda_distribucion_TieneOvertime.png
+│       ├── eda_proporcion_TieneOvertime.png
+│       ├── eda_matriz_correlacion.png
+│       ├── cm_logistic_regression.png
+│       ├── cm_decision_tree_(max_depth=6).png
+│       ├── cm_random_forest.png
+│       ├── cm_svm_(rbf,_20%_train).png
+│       ├── barplot_metricas_modelos.png
+│       └── evaluacion_barplot_metricas_clasificacion.png
+│
+└── src/                                # (reservado para funciones auxiliares)
 ```
 
 ## Tecnologías y librerías utilizadas
