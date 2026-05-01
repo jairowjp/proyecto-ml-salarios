@@ -61,8 +61,17 @@ Entre las visualizaciones desarrolladas se incluyen:
 
 <table>
   <tr>
-    <td width="300">La matriz de correlación muestra la relación lineal entre las variables numéricas del dataset. <code>TotalPay</code> y <code>TotalPayBenefits</code> presentan correlación muy alta dado que una incluye a la otra.</td>
-    <td><img src="reports/figures/eda_matriz_correlacion.png" width="600"></td>
+    <td width="300">
+      <div align="justify">
+        La matriz de correlación muestra la relación lineal entre las variables
+        numéricas del dataset. <code>TotalPay</code> y
+        <code>TotalPayBenefits</code> presentan una correlación muy alta, dado
+        que una incluye a la otra.
+      </div>
+    </td>
+    <td>
+      <img src="reports/figures/eda_matriz_correlacion.png" width="600">
+    </td>
   </tr>
 </table>
 
