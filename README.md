@@ -385,8 +385,6 @@ Entre los gráficos utilizados se incluyen:
 
 ### Comparación de métricas por modelo de clasificación
 
-<h3>Comparación de métricas por modelo de clasificación</h3>
-
 <table>
   <tr>
     <td width="320">
