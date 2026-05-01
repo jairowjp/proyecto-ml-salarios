@@ -279,7 +279,7 @@ De esta forma, además de la tabla resumen, el repositorio incorpora resultados 
       lo que respalda su elección como modelo principal para predecir `TieneOvertime`.
     </td>
     <td>
-      <img src="reports/figures/evaluacion_barplot_metricas_clasificacion.png" width="800">
+      <img src="reports/figures/barplot_metricas_modelos.png" width="800">
     </td>
   </tr>
 </table>
