@@ -1,13 +1,21 @@
 # Clasificación y regresión supervisada con el dataset San Francisco city employee salaries
-Proyecto académico de Aprendizaje Automático orientado al desarrollo, entrenamiento y comparación de modelos supervisados de clasificación y regresión aplicados a un caso técnico real: el análisis de salarios y horas extra de empleados públicos de la ciudad de San Francisco.
+<div align="justify">
+  Proyecto académico de Aprendizaje Automático orientado al desarrollo, entrenamiento y comparación de modelos supervisados de clasificación y regresión aplicados a un caso técnico real: el análisis de salarios y horas extra de empleados públicos de la ciudad de San Francisco.
+</div>
 
 ## Objetivo del proyecto
 
 El objetivo de este proyecto es construir un pipeline completo de aprendizaje automático que permita:
 
-- Predecir si un empleado recibe pago por horas extra (`TieneOvertime`) mediante modelos de clasificación supervisada.
-- Estimar el salario total de un empleado (`TotalPay`) mediante modelos de regresión supervisada.
-- Comparar experimentalmente distintos modelos usando métricas apropiadas y visualizaciones claras, tal como exige la actividad.
+<div align="justify">
+  - Predecir si un empleado recibe pago por horas extra (`TieneOvertime`) mediante modelos de clasificación supervisada.
+</div>
+<div align="justify">
+  - Estimar el salario total de un empleado (`TotalPay`) mediante modelos de regresión supervisada.
+</div>
+<div align="justify">
+  - Comparar experimentalmente distintos modelos usando métricas apropiadas y visualizaciones claras, tal como exige la actividad.
+</div>
 
 ## Contexto académico
 
