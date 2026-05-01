@@ -8,11 +8,18 @@
 El objetivo de este proyecto es construir un pipeline completo de aprendizaje automático que permita:
 
 <div align="justify">
-  - Predecir si un empleado recibe pago por horas extra (`TieneOvertime`) mediante modelos de clasificación supervisada.
+  <ul>
+    <li>
+      Predecir si un empleado recibe pago por horas extra
+      (<code>TieneOvertime</code>) mediante modelos de clasificación supervisada.
+    </li>
+    <li>
+      Estimar el salario total de un empleado (<code>TotalPay</code>) mediante modelos de regresión supervisada.
+    </li>
+    
+  </ul>
 </div>
-<div align="justify">
-  - Estimar el salario total de un empleado (`TotalPay`) mediante modelos de regresión supervisada.
-</div>
+
 <div align="justify">
   - Comparar experimentalmente distintos modelos usando métricas apropiadas y visualizaciones claras, tal como exige la actividad.
 </div>
