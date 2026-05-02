@@ -7,7 +7,7 @@
 
 ## Índice
 
-- [Resumen ejecutivo](#resumen-ejecutivo)
+- [Resumen](#resumen-ejecutivo)
 - [Cumplimiento de la actividad](#cumplimiento-de-la-actividad)
 - [Dataset y dominio del problema](#dataset-y-dominio-del-problema)
 - [Problemas abordados](#problemas-abordados)
@@ -368,6 +368,7 @@ desarrollo/
    - `02_preprocesamiento.ipynb`
    - `03_modelado.ipynb`
    - `04_evaluacion.ipynb`
+   - `04_regresion_evaluacion.ipynb` (opcional, para la parte de regresión)
 4. Ejecutar todas las celdas para reproducir el pipeline completo, las métricas y las visualizaciones.
 
 ---
