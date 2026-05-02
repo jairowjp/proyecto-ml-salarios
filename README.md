@@ -380,11 +380,11 @@ Para el problema de regresión se utilizaron:
 
 ### Visualización comparativa de resultados
 <div align="justify">
-  Se cumple con el criterio de visualización comparativa de resultados mediante el uso de diversas representaciones gráficas que complementan el análisis experimental de los modelos. En particular, se incorporaron matrices de confusión para los modelos de clasificación, útiles para examinar la distribución de aciertos y errores por clase [web:572].
+  Se cumple con el criterio de visualización comparativa de resultados mediante el uso de diversas representaciones gráficas que complementan el análisis experimental de los modelos. En particular, se incorporaron matrices de confusión para los modelos de clasificación, útiles para examinar la distribución de aciertos y errores por clase.
 
-Asimismo, se incluyeron curvas ROC para comparar la capacidad de discriminación de los clasificadores a diferentes umbrales de decisión, lo que permite complementar la evaluación con el análisis del AUC-ROC [web:576][web:582]. De forma adicional, se elaboraron gráficos de barras comparativos para las métricas de clasificación, facilitando la interpretación conjunta de indicadores como accuracy, precision, recall y F1-score [web:577].
+  Asimismo, se incluyeron curvas ROC para comparar la capacidad de discriminación de los clasificadores a diferentes umbrales de decisión, lo que permite complementar la evaluación con el análisis del AUC-ROC. De forma adicional, se elaboraron gráficos de barras comparativos para las métricas de clasificación, facilitando la interpretación conjunta de indicadores como accuracy, precision, recall y F1-score.
 
-En el caso de regresión, también se generaron gráficos comparativos de desempeño, orientados a contrastar el comportamiento de los modelos a partir de métricas como MAE, RMSE y \(R^2\), fortaleciendo así la interpretación cuantitativa de los resultados obtenidos [web:583]. En conjunto, estas visualizaciones permiten una presentación más clara, organizada y técnicamente sustentada del rendimiento de los modelos, en línea con criterios de claridad, análisis e interpretación de resultados señalados en la rúbrica [file:586].
+  En el caso de regresión, también se generaron gráficos comparativos de desempeño, orientados a contrastar el comportamiento de los modelos a partir de métricas como MAE, RMSE y \(R^2\), fortaleciendo así la interpretación cuantitativa de los resultados obtenidos. En conjunto, estas visualizaciones permiten una presentación más clara, organizada y técnicamente sustentada del rendimiento de los modelos, en línea con criterios de claridad, análisis e interpretación de resultados señalados en la rúbrica.
 </div>
 <br>
 Entre los gráficos utilizados se incluyen:
