@@ -35,7 +35,7 @@
 
 ---
 
-## Resumen ejecutivo
+## Resumen
 
 Este proyecto desarrolla un pipeline de aprendizaje automático supervisado aplicado al dataset **San Francisco City Employee Salaries**. Se abordó un problema principal de clasificación para predecir si un empleado recibe pago por horas extra (`TieneOvertime`) y un problema complementario de regresión para estimar el salario total (`TotalPay`).
 
